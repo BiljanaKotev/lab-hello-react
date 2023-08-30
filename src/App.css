@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main {
+  background-color: #202a44;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 75px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.NavbarLogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.NavbarItem > h1 {
+  font-size: 72px;
+  color: #ffffff;
+  line-height: 1;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.NavbarItem > h1 > span {
+  display: block;
+}
+
+.NavbarItem > p {
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 18px;
+  width: 25%;
+  margin-bottom: 50px;
+}
+
+.Button {
+  padding: 20px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 75px;
+}
+
+.IconsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.IconItem {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.IconItem > p {
+  width: 150px;
+  margin-left: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.IconItem > h2 {
+  margin-left: 25px;
 }
+
